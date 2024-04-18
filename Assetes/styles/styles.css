@@ -211,16 +211,52 @@ header {
   font-weight: 600;
   margin-bottom: 20px;
 }
-.resume-item  .section-description{
+.resume-item .section-description {
   text-align: left;
   padding: 25px 0px;
   margin: 0px 0px;
 }
-.resume-item  hr{
+.resume-item hr {
   background: rgb(209, 209, 209);
 }
-.resume-btn{
+.resume-btn {
   text-align: center;
   margin-top: 50px;
   margin-bottom: 115px;
+}
+/* footer section start */
+.footer-container {
+  padding: 130px 230px;
+  background: rgb(255, 248, 243);
+  display: flex;
+  gap: 90px;
+}
+.footer-item{
+  width: 100%;
+}
+.footer-item .section-title {
+  text-align: left;
+  color: rgb(24, 24, 24);
+  font-size: 35px;
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+.footer-item .section-description {
+  margin: 0px 0px;
+  margin-top: 20px;
+}
+.socials-links{
+  margin-top: 25px;
+}
+.socials-links a{
+  margin-right: 30px;
+}
+.contact input[type="text"],input[type="email"], textarea{
+  display: block;
+  margin-bottom: 25px;
+  padding: 20px 0px;
+  border: 0px;
+  border-radius: 5px;
+  background: rgb(255, 255, 255);
+  width: 100%;
 }
